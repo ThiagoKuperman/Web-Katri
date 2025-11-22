@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- Es el tipo de documento, en este caso HTML -->
+<html lang="es"> <!-- Es el lenguaje, "es" por "español" -->
+<head> <!-- Es la información interna de la web, entre el desarrollador y el navegador o motores de búsqueda, no se ve en la pantalla-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "author" content="Katrina Sersen Curccio y Abryl Pérez Rao">
+    <meta name="description" content="Este es un proyectp web sobre la Fórmula 1"> <!-- Es para que aparezca en la descripción de la web -->
+    <meta name="keywords" content="html, css, js, proyecto, diseño"> <!-- Son las palabras clave para los motores de búsqueda -->
+    <title>Fórmula 1</title> <!-- Lo que yo pongo en "title" va a ser importante para el buscador y lo vamos  aver en la pestaña del navegador cuando lo utilice -->
+    <link rel="stylesheet" href="estilos.css"> <!-- Enlaza el archivo CSS externo con el HTML -->
+</head>
+<body>
+    <header> <!-- Es el encabezado que se ve en pantalla -->
+        <div id="logoheader"> <!-- El atributo ID es para reconocer un elemento único e irrepetible -->
+            <img src="img/logo.png" alt="Logo F1"> <!-- Etiqueta de imagen, toda su información está dentro de sus atributos, por eso no tiene cierre -->
+            <!-- src= búsqueda. De dónde va a salir la imagen. IMPORTANTE, siempre tiene que estar la extensión del archivo (.jpg, .png, etc.) -->
+            <!-- Cada imagen tiene que tener su etiqueta -->
+            <!-- alt= Texto alternativo, tiene que ser descriptivo porque, si se rompe la imagen, se puede saber que hay ahí -->
+        </div>
+        
+        <nav> <!-- Etiqueta para el menú de navegación (contiene enlaces), pongo todos los botones que me ayudan a recorrer MI página -->
+            <ul> <!-- Es una lista desordenada -->
+                <li>
+                    <a href="index.html">INICIO</a>
+                    <!-- La etiqueta "a" es un ancla de link. En href le agregás el link de tu hiper vínculo y entre "a" y "/a", escribís lo que va a ver el usuario -->
+                </li> 
+                <li>
+                    <a href="quienessomos.html">¿QUIÉNES SOMOS?</a>
+                </li>
+                <li>
+                    <a href="equipos.html">EQUIPOS</a>
+                </li>
+                <li>
+                    <a href="pilotos.html">PILOTOS</a>
+                </li>
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="img/nosotros.png" alt="Foto de fondo con el texto NOSOTROS y una imagen de los pilotos de Ferrari">
+        </div>
+        <h1>SOBRE NOSOTROS</h1>  
+        <div> 
+            <img src="img/casco.png" alt="Casco de la Fórmula 1 en color rojo">
+        </div>
+        <p>Un equipo con pasión por la velocidad, el diseño y la emoción de la Fórmula 1</p>
+        <p>Somos un grupo de fanáticos de la Fórmula 1 que decidimos crear un espacio donde vivir la temporada de una manera distinta.</p>
+        <p>“PORQUE LA F1 NO ES SOLO VELOCIDAD. ES ESTRATEGIA, HISTORIA Y PASIÓN”</p>
+    </main>
+    <footer> <!-- Es el pie de página que se ve en pantalla -->
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/f1/" target="_blank"> <img src="img/instagram_logo.png" alt="Logo Instagram"> </a> 
+            </li>
+            <li>
+                <a href="https://www.facebook.com/Formula1/?locale=es_LA" target="_blank"> <img src="img/facebook_logo.png" alt="Logo Facebook"></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@f1?lang=es" target="_blank"> <img src="img/tiktok_logo.png" alt="Logo Tiktok"></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCB_qr75-ydFVKSF9Dmo6izg" target="_blank"><img src="img/youtube_logo.png" alt="Logo Youtube"></a>
+            </li>
+        </ul>
+        <div id="logofooternegro">
+            <img src="img/logonegro.png" alt="Logo F1">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li> 
+                <li>
+                    <a href="quienessomos.html">¿QUIÉNES SOMOS?</a>
+                </li>
+                <li>
+                    <a href="equipos.html">EQUIPOS</a>
+                </li>
+                <li>
+                    <a href="pilotos.html">PILOTOS</a>
+                </li>
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+        <p>© 2003-2025 Formula One World Championship Limited</p>
+    </footer>
+</body>
+</html>
